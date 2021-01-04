@@ -13,9 +13,16 @@
 					color: red;
 			}
 			a {
-					font-size=14px;
+					font-size: 14px;
 					color: green;
-
+			}
+			a:hover, a:active {
+					font-size: 14px;
+					color: red;
+			}
+			a:visited {
+					font-size: 14px;
+					color: purple;
 			}
 			header nav {
 					text-align: center;
@@ -24,11 +31,21 @@
 			.purple {
 					color: purple;
 			}
-
+			#spanheader {
+					color: purple;
+					height: 100px;
+					width: 800px;
+					background-color: orange;	
+					display: block;
+					text-align: center;
+			}
+			.imginline {
+					display: inline;
+			}
 		</style>
 	</head>
 	<body>
-		<header class="purple"><img src="img/Simply_Brian_Ent_2.png" id="Logo" alt="Simply Brian logo" width="100" height="100">Verbose description of just how simple Brian really is
+		<header class="purple"><img src="img/Simply_Brian_Ent_2.png" id="Logo" alt="Simply Brian logo" width="100" height="100" class="imginline"><span id="spanheader">Verbose description of just how simple Brian really is</span>
 			<nav><a href="broken.html" title="This doesn't work">Broken</a> <a href="#list" title="Skip to the list">The List</a> <a href="#empty" title="Nothing">Absolutely Nothing</a></nav></header>
 		<h1>Brian is Simple.  Yeah.</h1>
 
