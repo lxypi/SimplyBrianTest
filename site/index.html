@@ -3,25 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Simply Brian Enterprises</title>
+		<link rel="stylesheet" href="style.css">
 		<style>
-			h1, #blue {
-					color: blue;
-					font-style: italic;
-			}
+
 			li {
 					font-size: 20px;
 					color: red;
 			}
 			a {
-					font-size: 14px;
+					font-size: 16px;
 					color: green;
 			}
 			a:hover, a:active {
-					font-size: 14px;
+					font-size: 16px;
 					color: red;
 			}
 			a:visited {
-					font-size: 14px;
+					font-size: 16px;
 					color: purple;
 			}
 			header nav {
@@ -34,19 +32,29 @@
 			#spanheader {
 					color: purple;
 					height: 100px;
-					width: 800px;
+					width: 600px;
 					background-color: orange;	
 					display: block;
 					text-align: center;
 			}
-			.imginline {
+			#logo {
 					display: inline;
+					width: 100px;
+					height: 100px;
 			}
 		</style>
 	</head>
 	<body>
-		<header class="purple"><img src="img/Simply_Brian_Ent_2.png" id="Logo" alt="Simply Brian logo" width="100" height="100" class="imginline"><span id="spanheader">Verbose description of just how simple Brian really is</span>
-			<nav><a href="broken.html" title="This doesn't work">Broken</a> <a href="#list" title="Skip to the list">The List</a> <a href="#empty" title="Nothing">Absolutely Nothing</a></nav></header>
+		<header>
+			<img id="logo" src="img/Simply_Brian_Ent_2.png" alt="Simply Brian logo">
+				<span id="spanheader">Verbose description of just how simple Brian really is</span>
+				<nav>
+					<a href="broken.html" title="This doesn't work">Broken</a> 
+					<a href="#list" title="Skip to the list">The List</a> 
+					<a href="#empty" title="Nothing">Absolutely Nothing</a>
+				</nav>
+		</header>
+
 		<h1>Brian is Simple.  Yeah.</h1>
 
 		<div>
@@ -65,11 +73,10 @@
 			<li id="blue">Except that he is pretty darn simple</li>
 		</ol>
 		<section id="empty">
-			<!-- There's nothing here
-			-->
+			<!-- There's nothing here -->
 		</section>
 	</div>
 	
-	<footer>&lt;a href&gt;&amp;&lt;/a&gt; Page &copy;2021&nbsp;Simply&nbsp;Brian&nbsp;Enterprises and I'm &quot;sorry&quot;.  This page is W3C compliant, validate <a href="https://validator.w3.org/nu" title="W3C checker" target="_blank">Here</a></footer>
+	<footer style="text-align: center;">&lt;a href&gt;&amp;&lt;/a&gt; Page &copy;2021&nbsp;Simply&nbsp;Brian&nbsp;Enterprises and I'm &quot;sorry&quot;.  This page is W3C compliant, validate <a href="https://validator.w3.org/nu" title="W3C checker" target="_blank">Here</a></footer>
 	</body>
 </html>
