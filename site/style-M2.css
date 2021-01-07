@@ -1,0 +1,51 @@
+			body {
+					font-size: 16px;
+					font-family: Arial, sans-serif;
+					font-color: #5d5d5d;
+
+			}
+			h1, #blue {
+					color: blue;
+					font-style: italic;
+					text-align: center;
+			}
+			li {
+					font-size: 1.25em;
+					color: red;
+			}
+			li:hover {
+					background-color: #5d5d5d;
+			}
+			a {
+					color: green;
+			}
+			a:visited {
+					color: purple;
+			}
+			a:hover, a:active {
+					color: red;
+			}
+			header nav {
+					text-align: center;
+					background-color: yellow;
+			}
+			#list {
+					font-size: 2em;
+			}
+			.purple {
+					color: purple;
+					font-size: 2em;
+			}
+			#spanheader {
+					color: purple;
+					height: 100px;
+					width: 600px;
+					background-color: orange;	
+					display: block;
+					text-align: center;
+			}
+			#logo {
+					display: inline;
+					width: 100px;
+					height: 100px;
+			}
